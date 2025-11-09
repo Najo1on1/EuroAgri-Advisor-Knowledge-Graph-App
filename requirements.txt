@@ -1,3 +1,23 @@
-streamlit
-pillow
-networkx
+# Core app framework
+streamlit>=1.37.0
+pandas>=2.2.0
+numpy>=1.26.0
+
+# Visualization & plotting
+matplotlib>=3.8.0
+plotly>=5.22.0
+
+# Data handling & export
+pyarrow>=15.0.0
+pillow>=10.2.0
+
+# Utilities
+tqdm>=4.66.0
+pathlib
+jsonschema>=4.21.0
+
+# Optional: for Graph and RAG-based visual exports
+networkx>=3.2.0
+
+# Streamlit theme/config helpers
+toml>=0.10.2
