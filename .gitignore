@@ -1,0 +1,19 @@
+# notebooks
+.ipynb_checkpoints/
+*.ipynb_convert/
+
+# data (publish only data/sample/)
+data/*
+!data/sample/
+data/sample/*.parquet
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# envs & caches
+env/
+.venv/
+__pycache__/
+*.pyc
